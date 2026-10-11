@@ -95,7 +95,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  while (1)
+  while (1)11
   {
     HAL_ADC_Start(&hadc1);
     HAL_ADC_PollForConversion(&hadc1,HAL_MAX_DELAY);

@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"regular conservation\startup_stm32f103xb.o"
+"regular conservation\main.o"
+"regular conservation\stm32f1xx_it.o"
+"regular conservation\stm32f1xx_hal_msp.o"
+"regular conservation\stm32f1xx_hal_gpio_ex.o"
+"regular conservation\stm32f1xx_hal_adc.o"
+"regular conservation\stm32f1xx_hal_adc_ex.o"
+"regular conservation\stm32f1xx_hal.o"
+"regular conservation\stm32f1xx_hal_rcc.o"
+"regular conservation\stm32f1xx_hal_rcc_ex.o"
+"regular conservation\stm32f1xx_hal_gpio.o"
+"regular conservation\stm32f1xx_hal_dma.o"
+"regular conservation\stm32f1xx_hal_cortex.o"
+"regular conservation\stm32f1xx_hal_pwr.o"
+"regular conservation\stm32f1xx_hal_flash.o"
+"regular conservation\stm32f1xx_hal_flash_ex.o"
+"regular conservation\stm32f1xx_hal_exti.o"
+"regular conservation\system_stm32f1xx.o"
+--strict --scatter "REGULAR CONSERVATION\REGULAR CONSERVATION.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "REGULAR CONSERVATION.map" -o "REGULAR CONSERVATION\REGULAR CONSERVATION.axf"
